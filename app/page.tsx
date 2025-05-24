@@ -92,7 +92,6 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-[fadeIn_0.8s_ease-out_0.6s_forwards]">
               <Link 
-<<<<<<< HEAD
                 href="/app" 
                 className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
@@ -100,8 +99,6 @@ export default function Home() {
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Link>
               <Link 
-=======
->>>>>>> 0ff9da5 (update)
                 href="#features" 
                 className="inline-flex items-center px-8 py-4 border border-white/20 text-lg font-medium rounded-lg text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-200"
               >
