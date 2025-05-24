@@ -1,10 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-<<<<<<< HEAD
-import Navbar from "@/components/Navbar";
-=======
->>>>>>> 0ff9da5 (update)
 import { Toaster } from "react-hot-toast";
 import { AppProvider } from "@/context/AppProvider";
 
@@ -25,10 +21,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppProvider>
           <Toaster />
-<<<<<<< HEAD
-          <Navbar />
-=======
->>>>>>> 0ff9da5 (update)
           {children} 
         </AppProvider>
       </body>
